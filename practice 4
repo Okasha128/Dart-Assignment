@@ -1,0 +1,9 @@
+void main(){
+  int a = 4;
+  int b = 6;
+  if(a!=b){
+   print("Done");
+  }else{
+    print("not done");
+  }
+}
