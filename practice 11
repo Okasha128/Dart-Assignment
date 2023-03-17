@@ -1,0 +1,16 @@
+void main()
+{
+ int a = 8;
+  List <int> l = [];
+  List <int> lst = [0,10,12,15,18,20,0,8,8,7,8,6];
+  int counter = 0;
+  int y = lst.length;
+  for(int i = 0; i<y; i++){
+    if(a==lst[i]){
+      counter ++;
+    }
+  
+    l.add(counter);
+  }
+print(l);
+}
