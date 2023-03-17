@@ -1,0 +1,11 @@
+void main()
+{
+ void abc (int p){
+   if(p % 2 != 0 && p % 3 != 0){
+     print("This is prime number $p");
+   }else{
+     print("This is not a prime number $p");
+   }
+ }abc(37);
+ 
+}
