@@ -1,0 +1,12 @@
+# print even and odd number 
+void main()
+{
+ int range = 100;
+  for (int i = 1; i<=range; i++){
+   if(i % 2== 0){
+    print('$i this is an even number'); 
+   } else{
+     print('$i this is an odd number');
+   }
+  }  
+}
