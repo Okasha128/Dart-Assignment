@@ -1,0 +1,14 @@
+# print the odd number and calculate their total sum from a given input.
+void main()
+{
+ int range = 15;
+  int sum = 0;
+  for (int i = 1; i<=range; i++){
+   if(i % 2== 1){
+    print(i); 
+    sum += i;
+   } 
+  }
+     print('Total sum of odd numbers is $sum');
+     
+}
